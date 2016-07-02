@@ -1256,8 +1256,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="VSS">
 <contactref element="ICSP" pad="3"/>
-<contactref element="U$2" pad="P$8"/>
-<wire x1="86.44" y1="17.66" x2="42.73" y2="66.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VPP">
 <contactref element="MAIN_CONTROLLER" pad="4"/>
@@ -1300,6 +1298,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="XB1" pad="10"/>
+<contactref element="U$2" pad="P$8"/>
 <wire x1="70.6" y1="53" x2="93.73" y2="45.81" width="0" layer="19" extent="1-1"/>
 <wire x1="67.4" y1="56" x2="70.6" y2="53" width="0" layer="19" extent="1-1"/>
 <wire x1="67.4" y1="59" x2="67.4" y2="56" width="0" layer="19" extent="1-1"/>
@@ -1309,6 +1308,7 @@ design rules under a new name.</description>
 <wire x1="32.7996" y1="20.3114" x2="31.65" y2="26" width="0" layer="19" extent="1-1"/>
 <wire x1="41.19" y1="3" x2="32.7996" y2="20.3114" width="0" layer="19" extent="1-1"/>
 <wire x1="4" y1="30" x2="31.65" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="86.44" y1="17.66" x2="93.73" y2="45.81" width="0" layer="19" extent="1-1"/>
 <wire x1="37.65" y1="66.19" x2="67.4" y2="59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LVP">

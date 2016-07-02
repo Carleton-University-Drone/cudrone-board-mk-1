@@ -168,7 +168,6 @@
 CURC drone</text>
 <text x="96" y="-24" size="1.778" layer="20">David Bascelli</text>
 <text x="128" y="-25" size="1.778" layer="20">1 of 1</text>
-<text x="97" y="-9" size="1.778" layer="20">Mounting Dimensions</text>
 <dimension x1="7.5" y1="65" x2="2.5" y2="65" x3="5" y3="58" textsize="1.778" layer="20" dtype="diameter"/>
 <dimension x1="0" y1="0" x2="5" y2="5" x3="2.5" y3="12" textsize="1.778" layer="20" dtype="horizontal"/>
 <dimension x1="0" y1="0" x2="5" y2="5" x3="14" y3="2.5" textsize="1.778" layer="20" dtype="vertical"/>
