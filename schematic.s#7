@@ -1513,8 +1513,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="RECIVER" gate="A" pin="1"/>
-<wire x1="129.54" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<label x="111.76" y="53.34" size="1.778" layer="95"/>
+<wire x1="129.54" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<label x="109.22" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSS" class="0">
@@ -1522,30 +1522,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="86.36" y="48.26" size="1.778" layer="95"/>
 <pinref part="ICSP" gate="A" pin="3"/>
 <wire x1="86.36" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PGD" class="0">
-<segment>
-<label x="86.36" y="45.72" size="1.778" layer="95"/>
-<pinref part="ICSP" gate="A" pin="4"/>
-<wire x1="86.36" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="MAIN_CONTROLLER" gate="A" pin="RA0/AN0/CVREF/VREF-/C1IN+/INT0/PGD"/>
-<wire x1="167.64" y1="-2.54" x2="172.72" y2="-2.54" width="0.1524" layer="91"/>
-<label x="167.64" y="-2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PGC" class="0">
-<segment>
-<label x="86.36" y="43.18" size="1.778" layer="95"/>
-<pinref part="ICSP" gate="A" pin="5"/>
-<wire x1="86.36" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="MAIN_CONTROLLER" gate="A" pin="RA1/AN1/C12IN0-/VREF+/INT1/PGC"/>
-<wire x1="167.64" y1="-5.08" x2="172.72" y2="-5.08" width="0.1524" layer="91"/>
-<label x="167.64" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LVP" class="0">
@@ -1606,8 +1582,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="RECIVER" gate="A" pin="2"/>
-<wire x1="129.54" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="111.76" y="50.8" size="1.778" layer="95"/>
+<wire x1="129.54" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+<label x="109.22" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="MAIN_CONTROLLER" gate="A" pin="VSS"/>
@@ -1691,32 +1667,62 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="170.18" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PITCH" class="0">
-<segment>
-<pinref part="RECIVER" gate="A" pin="3"/>
-<wire x1="129.54" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
-<label x="111.76" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROLL" class="0">
-<segment>
-<pinref part="RECIVER" gate="A" pin="4"/>
-<wire x1="129.54" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
-<label x="111.76" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="YAW" class="0">
 <segment>
 <pinref part="RECIVER" gate="A" pin="5"/>
-<wire x1="129.54" y1="43.18" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
-<label x="111.76" y="43.18" size="1.778" layer="95"/>
+<wire x1="129.54" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<label x="109.22" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MAIN_CONTROLLER" gate="A" pin="RA2/AN2/C1OUT/T0CKI/INT2/SRQ"/>
+<wire x1="167.64" y1="-7.62" x2="172.72" y2="-7.62" width="0.1524" layer="91"/>
+<label x="167.64" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THROTTLE" class="0">
 <segment>
 <pinref part="RECIVER" gate="A" pin="6"/>
-<wire x1="129.54" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
-<label x="111.76" y="40.64" size="1.778" layer="95"/>
+<wire x1="129.54" y1="40.64" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
+<label x="109.22" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MAIN_CONTROLLER" gate="A" pin="RC1/AN5/C12IN1-"/>
+<wire x1="167.64" y1="-12.7" x2="172.72" y2="-12.7" width="0.1524" layer="91"/>
+<label x="167.64" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PGD/PITCH" class="0">
+<segment>
+<label x="76.2" y="45.72" size="1.778" layer="95"/>
+<pinref part="ICSP" gate="A" pin="4"/>
+<wire x1="86.36" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RECIVER" gate="A" pin="3"/>
+<wire x1="129.54" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="109.22" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MAIN_CONTROLLER" gate="A" pin="RA0/AN0/CVREF/VREF-/C1IN+/INT0/PGD"/>
+<wire x1="167.64" y1="-2.54" x2="172.72" y2="-2.54" width="0.1524" layer="91"/>
+<label x="167.64" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PGC/ROLL" class="0">
+<segment>
+<label x="76.2" y="43.18" size="1.778" layer="95"/>
+<pinref part="ICSP" gate="A" pin="5"/>
+<wire x1="86.36" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RECIVER" gate="A" pin="4"/>
+<wire x1="129.54" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+<label x="109.22" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MAIN_CONTROLLER" gate="A" pin="RA1/AN1/C12IN0-/VREF+/INT1/PGC"/>
+<wire x1="167.64" y1="-5.08" x2="172.72" y2="-5.08" width="0.1524" layer="91"/>
+<label x="167.64" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
