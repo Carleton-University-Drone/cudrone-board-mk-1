@@ -2744,6 +2744,10 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="206,1,187.96,45.72,VDD,,,,,"/>
+<approved hash="206,1,187.96,43.18,VDD,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
