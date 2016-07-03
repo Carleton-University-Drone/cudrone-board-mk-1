@@ -2200,7 +2200,9 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="C1" gate="G$1" x="149.86" y="50.8"/>
 <instance part="C2" gate="G$1" x="190.5" y="50.8"/>
 <instance part="C3" gate="G$1" x="-20.32" y="-15.24"/>
-<instance part="IMU" gate="A" x="147.32" y="-68.58"/>
+<instance part="IMU" gate="A" x="147.32" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="127" y="-87.376" size="2.54" layer="96"/>
+</instance>
 <instance part="XB1" gate="G$1" x="40.64" y="-76.2"/>
 <instance part="C4" gate="G$1" x="15.24" y="-55.88" rot="MR90"/>
 <instance part="D2" gate="G$1" x="0" y="-71.12"/>
@@ -2208,16 +2210,36 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="R7" gate="G$1" x="-5.08" y="-83.82" rot="R270"/>
 <instance part="R8" gate="G$1" x="5.08" y="-96.52" rot="R270"/>
 <instance part="R9" gate="G$1" x="-5.08" y="-96.52" rot="R270"/>
-<instance part="R10" gate="G$1" x="116.84" y="-58.42"/>
-<instance part="R11" gate="G$1" x="104.14" y="-58.42"/>
-<instance part="R12" gate="G$1" x="91.44" y="-58.42"/>
-<instance part="R13" gate="G$1" x="78.74" y="-58.42"/>
-<instance part="R14" gate="G$1" x="71.12" y="-66.04" rot="R270"/>
-<instance part="R15" gate="G$1" x="71.12" y="-81.28" rot="R270"/>
-<instance part="R16" gate="G$1" x="71.12" y="-96.52" rot="R270"/>
-<instance part="R17" gate="G$1" x="71.12" y="-111.76" rot="R270"/>
-<instance part="R18" gate="G$1" x="71.12" y="-127" rot="R270"/>
-<instance part="R19" gate="G$1" x="71.12" y="-142.24" rot="R270"/>
+<instance part="R10" gate="G$1" x="116.84" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="113.03" y="-61.722" size="1.778" layer="96"/>
+</instance>
+<instance part="R11" gate="G$1" x="104.14" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="100.33" y="-61.722" size="1.778" layer="96"/>
+</instance>
+<instance part="R12" gate="G$1" x="91.44" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="87.63" y="-61.722" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="78.74" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="74.93" y="-61.722" size="1.778" layer="96"/>
+</instance>
+<instance part="R14" gate="G$1" x="71.12" y="-66.04" smashed="yes" rot="R270">
+<attribute name="VALUE" x="67.818" y="-62.23" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R15" gate="G$1" x="71.12" y="-81.28" smashed="yes" rot="R270">
+<attribute name="VALUE" x="67.818" y="-77.47" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R16" gate="G$1" x="71.12" y="-96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="67.818" y="-92.71" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R17" gate="G$1" x="71.12" y="-111.76" smashed="yes" rot="R270">
+<attribute name="VALUE" x="67.818" y="-107.95" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R18" gate="G$1" x="71.12" y="-127" smashed="yes" rot="R270">
+<attribute name="VALUE" x="67.818" y="-123.19" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R19" gate="G$1" x="71.12" y="-142.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="67.818" y="-138.43" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>

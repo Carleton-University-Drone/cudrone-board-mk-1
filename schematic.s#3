@@ -2180,6 +2180,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
+<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
 </parts>
 <sheets>
 <sheet>
@@ -2240,6 +2241,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="R19" gate="G$1" x="71.12" y="-142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="67.818" y="-138.43" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="R20" gate="G$1" x="-30.48" y="-96.52"/>
 </instances>
 <busses>
 </busses>
@@ -2744,6 +2746,10 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="206,1,187.96,45.72,VDD,,,,,"/>
+<approved hash="206,1,187.96,43.18,VDD,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

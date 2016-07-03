@@ -2195,7 +2195,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="R5" gate="G$1" x="27.94" y="38.1" rot="R270"/>
 <instance part="U1" gate="A" x="170.18" y="48.26"/>
 <instance part="ICSP" gate="A" x="99.06" y="45.72"/>
-<instance part="ESC" gate="A" x="96.52" y="81.28"/>
+<instance part="ESC" gate="A" x="99.06" y="81.28"/>
 <instance part="RECIVER" gate="A" x="132.08" y="45.72"/>
 <instance part="C1" gate="G$1" x="149.86" y="50.8"/>
 <instance part="C2" gate="G$1" x="190.5" y="50.8"/>
@@ -2351,9 +2351,8 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="149.86" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ESC" gate="A" pin="1"/>
-<wire x1="93.98" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
-<label x="83.82" y="86.36" size="1.778" layer="95"/>
+<pinref part="ESC" gate="A" pin="2"/>
+<wire x1="104.14" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2361,11 +2360,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="U1" gate="A" pin="GND"/>
 <wire x1="152.4" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
 <label x="144.78" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ESC" gate="A" pin="3"/>
-<wire x1="93.98" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
-<label x="83.82" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RECIVER" gate="A" pin="2"/>
@@ -2423,53 +2417,53 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="0" y1="-101.6" x2="0" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-2.54" y="-109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ESC" gate="A" pin="4"/>
+<wire x1="104.14" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="M1" class="0">
-<segment>
-<pinref part="ESC" gate="A" pin="5"/>
-<wire x1="93.98" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
-<label x="83.82" y="81.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="MAIN_CONTROLLER" gate="A" pin="RC5/CCP1/P1A"/>
 <wire x1="0" y1="-10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-5.08" y="-10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ESC" gate="A" pin="6"/>
+<wire x1="104.14" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="M2" class="0">
-<segment>
-<pinref part="ESC" gate="A" pin="7"/>
-<wire x1="93.98" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
-<label x="83.82" y="78.74" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="MAIN_CONTROLLER" gate="A" pin="RC4/C2OUT/P1B/SRNQ"/>
 <wire x1="0" y1="-12.7" x2="-5.08" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-5.08" y="-12.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ESC" gate="A" pin="8"/>
+<wire x1="104.14" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="M3" class="0">
-<segment>
-<pinref part="ESC" gate="A" pin="9"/>
-<wire x1="93.98" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="91"/>
-<label x="83.82" y="76.2" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="MAIN_CONTROLLER" gate="A" pin="RC3/AN7/C12IN3-/P1C/PGM"/>
 <wire x1="0" y1="-15.24" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-5.08" y="-15.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ESC" gate="A" pin="10"/>
+<wire x1="104.14" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="M4" class="0">
-<segment>
-<pinref part="ESC" gate="A" pin="11"/>
-<wire x1="93.98" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
-<label x="83.82" y="73.66" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="MAIN_CONTROLLER" gate="A" pin="RC2/AN6/C12IN2-/P1D"/>
 <wire x1="167.64" y1="-15.24" x2="172.72" y2="-15.24" width="0.1524" layer="91"/>
 <label x="167.64" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ESC" gate="A" pin="12"/>
+<wire x1="104.14" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="YAW" class="0">
