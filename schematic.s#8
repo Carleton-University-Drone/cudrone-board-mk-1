@@ -2326,8 +2326,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="R45" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-YELLOW" device="1206" value="YELLOW"/>
-<part name="D5" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
-<part name="D6" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="D7" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="D8" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="D9" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
@@ -2422,8 +2420,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="R45" gate="G$1" x="175.26" y="-22.86"/>
 <instance part="D3" gate="G$1" x="-7.62" y="2.54" rot="R180"/>
 <instance part="D4" gate="G$1" x="-17.78" y="2.54" rot="R180"/>
-<instance part="D5" gate="G$1" x="20.32" y="-76.2" rot="R270"/>
-<instance part="D6" gate="G$1" x="20.32" y="-78.74" rot="R270"/>
 <instance part="D7" gate="G$1" x="20.32" y="-81.28" rot="R270"/>
 <instance part="D8" gate="G$1" x="20.32" y="-83.82" rot="R270"/>
 <instance part="D9" gate="G$1" x="20.32" y="-86.36" rot="R270"/>
@@ -2500,11 +2496,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="71.12" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="C"/>
-<pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="15.24" y1="-76.2" x2="15.24" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="15.24" y1="-78.74" x2="15.24" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="-81.28" x2="15.24" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="C"/>
@@ -3164,20 +3156,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="0" y1="-5.08" x2="-17.78" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-5.08" x2="-17.78" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="XB1" gate="G$1" pin="!DTR!/SLEEP_RQ/DIO8"/>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="-76.2" x2="22.86" y2="-76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="XB1" gate="G$1" pin="!CTS!/DIO7"/>
-<pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="-78.74" x2="22.86" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
