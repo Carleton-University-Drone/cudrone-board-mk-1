@@ -1223,9 +1223,15 @@ design rules under a new name.</description>
 <element name="R4" library="SparkFun-Passives" package="0402-RES" value="49.9" x="34.3" y="20.2" rot="R180"/>
 <element name="R5" library="SparkFun-Passives" package="0402-RES" value="49.9" x="34.3" y="12.2" rot="R180"/>
 <element name="U1" library="ADP3338AKCZ-3.3RL7" package="SOT230P700X180-4N" value="ADP3338AKCZ-3.3RL7" x="43" y="13" smashed="yes" rot="R90"/>
-<element name="ICSP" library="pinhead" package="1X06/90" value="" x="44" y="72"/>
+<element name="ICSP" library="pinhead" package="1X06/90" value="" x="44" y="72" smashed="yes">
+<attribute name="NAME" x="45.81" y="65.745" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="53.525" y="68.19" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="ESC" library="pinhead" package="2X06" value="" x="54" y="3"/>
-<element name="RECIVER" library="pinhead" package="1X06" value="" x="60" y="68"/>
+<element name="RECIVER" library="pinhead" package="1X06" value="" x="60" y="68" smashed="yes">
+<attribute name="NAME" x="56.3038" y="64.8288" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="52.38" y="64.825" size="1.27" layer="27"/>
+</element>
 <element name="C1" library="SparkFun-Capacitors" package="1210" value="10uF" x="43.5" y="5.8" rot="R90">
 <attribute name="PROD_ID" value="CAP-09824" x="43.5" y="5.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
