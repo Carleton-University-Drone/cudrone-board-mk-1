@@ -3056,6 +3056,11 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-11.176" y="-11.938" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="86.36" y="53.34" size="1.778" layer="95"/>
+<pinref part="ICSP" gate="A" pin="1"/>
+<wire x1="86.36" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -3131,13 +3136,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="68.58" y="-154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VSS" class="0">
-<segment>
-<label x="86.36" y="48.26" size="1.778" layer="95"/>
-<pinref part="ICSP" gate="A" pin="3"/>
-<wire x1="86.36" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LVP" class="0">
 <segment>
 <label x="86.36" y="40.64" size="1.778" layer="95"/>
@@ -3205,11 +3203,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="33.02" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="33.02" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 <label x="30.48" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="86.36" y="53.34" size="1.778" layer="95"/>
-<pinref part="ICSP" gate="A" pin="1"/>
-<wire x1="86.36" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -3282,6 +3275,11 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="UART" gate="G$1" pin="3"/>
 <wire x1="-30.48" y1="48.26" x2="-30.48" y2="43.18" width="0.1524" layer="91"/>
 <label x="-30.48" y="43.18" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<label x="86.36" y="48.26" size="1.778" layer="95"/>
+<pinref part="ICSP" gate="A" pin="3"/>
+<wire x1="86.36" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M1" class="0">

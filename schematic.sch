@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3171,6 +3171,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="ESC" gate="A" pin="2"/>
 <wire x1="104.14" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<label x="109.22" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3223,6 +3224,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="ESC" gate="A" pin="4"/>
 <wire x1="104.14" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<label x="109.22" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
@@ -3284,6 +3286,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="ESC" gate="A" pin="6"/>
 <wire x1="104.14" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="109.22" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M2" class="0">
@@ -3295,6 +3298,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="ESC" gate="A" pin="8"/>
 <wire x1="104.14" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<label x="109.22" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M3" class="0">
@@ -3306,12 +3310,14 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="ESC" gate="A" pin="10"/>
 <wire x1="104.14" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<label x="109.22" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M4" class="0">
 <segment>
 <pinref part="ESC" gate="A" pin="12"/>
 <wire x1="104.14" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<label x="109.22" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="MAIN_CONTROLLER" gate="A" pin="RC2/AN6/C12IN2-/P1D"/>
